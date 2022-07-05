@@ -1,0 +1,149 @@
+
+span{
+    color: rgb(249, 8, 156);
+}
+header ul{
+    list-style: none;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+}
+body{
+
+}
+a:hover,a:active{
+    transition: .3s;
+    color: aqua;
+}
+header li:nth-child(3){
+    background-color: black;
+    font-size: 20;
+    transform-style: flat;
+}
+section div :nth-child(odd){
+    background-color: rgb(246, 37, 159);
+}
+footer{
+    background-color: none;
+    width: 150px;
+    margin-left: 5px;
+    padding: 7px;
+    border-radius: 5px 5px;
+    border: 1px solid black;
+    margin-top: 200px;
+}
+footer:hover{
+    background-color: brown;
+    transform:scale(0.9);
+    cursor: pointer;
+    
+}
+.sub-h3{
+    background-color: aquamarine;
+    margin-left: 5px;
+    border: 1.5px solid rgb(243, 6, 160);
+    padding: 4px 10px;
+    border-radius: 5px 5px;
+}
+.subb-h3{
+    margin-left: 7px;
+    border: 1.5px solid rgb(239, 31, 135);
+    padding: 4px 10px;
+    background-color: aquamarine;
+    border-radius: 5px 5px;
+}
+.subbb-h3{
+    margin-left: 7px;
+    border: 1.5px solid rgb(235, 9, 152);
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 4px 4px;}
+.sub-h3:hover{
+    background-color: antiquewhite;
+}
+.subb-h3:hover{
+    background-color: antiquewhite;
+}
+.subbb-h3:hover{
+    transform: scale(1.5);
+}
+.sub1-h3:hover{
+    text-decoration: none;
+    background-color: none;
+
+}
+ #container{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+    
+.back{
+    font-weight: bold;
+    text-decoration-line: none;
+    text-decoration: none;
+    margin-left: 600px;
+    margin-top: 300px;
+}
+.footer{
+    margin-top: 300px;
+}
+.jacked{
+    margin-left: 60px;
+    padding: -100px;
+    margin-top: -40px;
+}
+
+
+h3{
+    border-radius: 6px 6px;
+    margin:0px;
+    width: 250px;
+    background-color: grey;
+    margin-top: -600px;
+    margin-left:530px ;
+}
+p{
+    font-style: normal;
+    color: rgb(2, 2, 95);
+    margin-left: 7px;
+}
+nav{
+    text-align: center;
+    margin-left: 13px;
+    margin: 0px;
+    
+}
+    
+h1{
+    text-align: center;
+    font-size: 95%;
+    color: rgb(3, 3, 94);
+    margin:0px;
+    
+}
+h2{
+    text-align: center;
+    font-size: medium;
+    font-family: monospace;
+    color: rgb(34, 3, 96);
+}
+button{
+    margin-left: 10px;
+    margin-top: -90px;
+    border: 2px solid rgb(239, 31, 135);
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition-duration: 4s;
+    transition:.2s;
+    border-radius: 8px 8px;
+    text-decoration: none;
+    background-color: ;
+    color: rgb(48, 75, 246);
+    padding: 10px 18px;
+}
+button:hover{
+    background-color: black;
+    transform: scale(1.2)
+}
