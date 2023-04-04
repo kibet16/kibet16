@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @kibet16
-- 🌱 I’m currently learning programming
+- 🌱 Programming
 
 
 <!---
