@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script
+      src="https://kit.fontawesome.com/2266fbf56f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2266fbf56f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: monospace;
+      }
+      #nos {
+        font-weight: bold;
+      }
+      span,
+      i {
+        color: deeppink;
+      }
+      p {
+        color: #fcfc;
+      }
+      .card {
+        border-radius: 6px;
+      }
+      button {
+        border-radius: 9px;
+      }
+
+      button:hover {
+        transition: 5s;
+        box-shadow: 0 0 7px rgb(14, 226, 230), 0 0 7px rgb(9, 220, 220);
+      }
+      .box {
+        color: aqua;
+        width: 40px;
+      }
+      i {
+        border-radius: 50%;
+      }
+      #p {
+        color: black;
+      }
+
+      i:hover {
+        transition: 2s;
+        box-shadow: 0 0 7px rgb(14, 226, 230), 0 0 7px rgb(9, 220, 220);
+      }
+      .w3-image {
+        border-radius: 50%;
+      }
+      #great {
+        text-shadow: 2px, 2px, 6px rgb(14, 226, 230);
+      }
+      #profil{
+         box-shadow: 0 0 0px  rgb(255, 20, 147), 0 0 0px rgb(255, 20, 147);
+      }
+      #profil:hover{
+            border: 5px solid deeppink;
+            cursor: pointer;
+            transition: 9s;
+            transform: scale(1.05)
+      }
+      
+      h6 {
+        font-size: small;
+        text-align: center;
+        font-weight:bold;
+        align-items: center;
+      }
+
+      h5{
+      font-weight:bold;
+      font-size:20px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      {
+        font-weight: bold;
+      }
+      .w3-row-padding img {
+        margin-bottom: 12px;
+      }
+      /* Set the width of the sidebar to 120px */
+      .w3-sidebar {
+        width: 120px;
+        background: #222;
+      }
+      /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+      #main {
+        margin-left: 120px;
+      }
+      /* Remove margins from "page content" on small screens */
+      @media only screen and (max-width: 600px) {
+        #main {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body class="w3-black">
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!-- Avatar image in top left corner -->
+      <img style="width: 100%" src="images/nurse1.jpg" alt="" />
+
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+      </a>
+
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div
+        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+      >
+        <a href="#" class="w3-bar-item w3-button" style="width: 25% !important"
+          >HOME</a
+        >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >ABOUT</a
+        >
+
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">
+          Jo<span class="w3-hide-small"
+            >an <i class="fa-solid fa-user-doctor"></i
+          ></span>
+        </h1>
+        <p>Professional Nurse.</p>
+        <img
+          alt="nurse"
+          class="w3-image placeholder-wave"
+          width="400"
+          height="700"
+          id="profil"
+          src="images/gradnurse.jpg"
+          alt=""
+        />
+      </header>
+
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 id="great" class="w3-text-light-grey">
+          Greatness Achieved Through Excellence
+        </h2>
+        <hr style="width: 565px; color: dodgerblue" />
+        <p>
+          A professional and compassionate registered nurse with clinical acumen and advanced education to
+           navigate the intricacies of healthcare delivery with a staunch commitment to upholding the highest 
+           standards of patient care. Dedicated to evidence-based practice hence possessing a comprehensive 
+           understanding of the multifaceted nature of disease processes, treatment modalities, and medical technologies. 
+           A pro nurse with an unwavering commitment to patient safety, complex nursing interventions, and continuous
+            monitoring of physiological responses to treatment.
+        </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
+        <hr style="width: 70px; color: dodgerblue" />
+        <p class="w3-wide">Paediatric</p>
+        <div class="w3-white">
+          <div class="w3-pink" style="height: 28px; width: 95%"></div>
+        </div>
+        <p class="w3-wide">Anaesthetics</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 85%"></div>
+        </div>
+        <p class="w3-wide">Psychiatry</p>
+        <div class="w3-white">
+          <div class="w3-green" style="height: 28px; width: 80%"></div>
+        </div>
+        <br />
+
+        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+          <div class="w3-quarter w3-section">
+            <span id="nos" class="w3-xlarge">4</span><br />
+            Level 5 facilities served
+          </div>
+          <div class="w3-quarter w3-section">
+            <span id="nos" class="w3-xlarge">2</span><br />
+            national centers
+          </div>
+          <div class="w3-quarter w3-section">
+            <span id="nos" class="w3-xlarge">4+</span><br />
+            States served
+          </div>
+          <div class="w3-quarter w3-section">
+            <span id="nos" class="w3-xlarge">13+</span><br />
+            Special Appointments
+          </div>
+        </div>
+
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+          <i class="fa fa-download"></i> Download Profile
+        </button>
+
+        <!-- Grid for pricing tables -->
+        <h3
+          class="w3-padding-16 w3-text-light-grey"
+          style="align-items: center; text-align: center"
+        >
+          My Doctrines
+        </h3>
+        <div class="w3-row-padding" style="margin: 0 -16px">
+          <div id="box" class="w3-half w3-margin-bottom">
+            <ul class="w3-ul w3-white w3-center w3-opacity">
+              <div class="card">
+                <i class="fa-solid fa-user"></i>
+                <h5>Finn<span>ese</span></h5>
+                <div class="pra">
+                  <p id="p">
+                    My sheer perspicacity and indefatigability makes me a feared
+                    opponent in every realm of human endeavour!
+                  </p>
+                  <p style="text-align: center"></p>
+                </div>
+              </div>
+              <button
+                class="w3-button w3-white w3-padding-large w3-hover-black"
+              >
+                Read more
+              </button>
+            </ul>
+          </div>
+
+          <div class="w3-half" style="border-radius: 8px">
+            <ul class="w3-ul w3-white w3-center w3-opacity">
+              <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Verif<span>ied</span></h5>
+                <div class="pra">
+                  <p id="p">
+                    I affirm the importance of  improving my mental
+                    faculties through diligent work, study, and practice!
+                  </p>
+                  <p style="text-align: center"></p>
+                </div>
+              </div>
+              <button
+                class="w3-button w3-white w3-padding-large w3-hover-black"
+              >
+                Read more
+              </button>
+            </ul>
+          </div>
+          <!-- End Grid/Pricing tables -->
+        </div>
+
+        <!-- Testimonials -->
+        <h3 class="w3-padding-24 w3-text-light-grey">Verify</h3>
+        <hr style="width: 82px; color: dodgerblue" />
+        <img
+          src="images/undergrad.jpg"
+          alt="Avatar"
+          class="w3-left w3-circle w3-margin-right"
+          style="width: 80px"
+        />
+        <p>
+          <span class="w3-large w3-margin-right">Whistler.</span> BSR, Broken
+          skull.
+        </p>
+        <p>She is rational & exceptional</p>
+        <br />
+
+        <img
+          src="images/coding.png"
+          alt="Avatar"
+          class="w3-left w3-circle w3-margin-right"
+          style="width: 80px"
+        />
+        <p>
+          <span class="w3-large w3-margin-right">Kibet.</span> Programmer, Kibet.Inc.
+        </p>
+        <p>Joan comes from the future!.</p>
+        <!-- End About Section -->
+      </div>
+
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <hr style="width: 170px; color: dodgerblue" />
+
+        <div class="w3-section">
+          <p>
+            <i
+              class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Seattle, Massai
+          </p>
+          <p>
+            <i
+              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Phone: +254794829832
+          </p>
+          <p>
+            <i
+              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            >
+            </i>
+            Email: kilelejoan@mail.net
+          </p>
+        </div>
+        <br />
+        <p>Let's get in touch. Send me a message:</p>
+
+        <form action="/action" target="_blank">
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+              pattern="[A-Za-z]{3}"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Email"
+              required
+              name="Email"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Subject"
+              required
+              name="Subject"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+          </p>
+          <p>
+            
+          </p>
+        </form>
+        <!-- End Contact Section -->
+      </div>
+
+      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-small">Greatness Achieved Through Excellence!</p>
+        
+        <a
+          class="w3-button w3-round-xxlarge w3-small w3-light-grey"
+          href="https://github.com/kibet16"
+          target="_blank"
+          >Start now</a
+        ><br/>
+        <br/>
+        <h6>&copy; 2023 Kibet, Inc. All Rights Reserved. Cookie Policy. T&C apply.<br /></h6>
+        
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
+    </div>
+  </body>
+</html>
